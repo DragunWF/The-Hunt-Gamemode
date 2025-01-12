@@ -15,6 +15,7 @@ _To be added_
 ## To Do List - Bugs to fix
 
 - [ ] **BUG FIX:** The player is still allowed to respawn when the number of lives is brought down to negative values.
+- [ ] **IMPROVEMENT:** Set default player lives to `3` instead of `50`.
 
 ## Links
 
