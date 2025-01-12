@@ -8,11 +8,7 @@ Each map is a dangerous hunting ground where squads of NPCs, primarily Combine f
 
 Your ultimate objective is simple yet challenging: eliminate all the Combine without being detected. Stealth, strategy, and precise execution are your best tools for survival.
 
-## Disclaimer
-
-_To be added_
-
-## To Do List - Bugs to fix
+## To Do List
 
 - [ ] **BUG FIX:** The player is still allowed to respawn when the number of lives is brought down to negative values.
 - [ ] **IMPROVEMENT:** Set default player lives to `3` instead of `50`.
