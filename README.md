@@ -16,6 +16,7 @@ Your ultimate objective is simple yet challenging: eliminate all the Combine wit
 
 ## Links
 
+- [Link to Garry's Mod](https://store.steampowered.com/app/4000/Garrys_Mod/)
 - [Steam Workshop Download (Original Version)](https://steamcommunity.com/sharedfiles/filedetails/?id=292275126)
 - [GitHub Repository of the original version of The Hunt Gamemode](https://github.com/Eddlm/TheHunt)
 - [Gamemode Manual from the original owner](www.googledrive.com/host/0B02m1TcaLJ-vX2pvaGhJVkVZSU0)
