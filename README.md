@@ -10,7 +10,7 @@ Your ultimate objective is simple yet challenging: eliminate all the Combine wit
 
 ## To Do List
 
-- [ ] **BUG FIX:** The player is still allowed to respawn when the number of lives is brought down to negative values.
+- [x] **BUG FIX:** The player is still allowed to respawn when the number of lives is brought down to negative values.
 - [ ] **IMPROVEMENT:** Set default player lives to `3` instead of `50`.
 - [ ] **IMPROVEMENT:** Set lives reward count for clearing a wave of Combine soldiers to a discrete value such as `1` instead of `1.5`.
 

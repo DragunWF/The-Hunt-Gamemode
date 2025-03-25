@@ -3133,10 +3133,13 @@ function GM:DoPlayerDeath( ply, attacker, dmginfo )
 		
 		-- If there's more than one player on the map, the lifes system starts working.
 		if PLAYERSINMAP > 1 then
-			if ply.lifes == 0  then
+			if ply.lifes <= 0 then
 				ply:PrintMessage(HUD_PRINTTALK, "You have no lifes left.")
 				ply:PrintMessage(HUD_PRINTTALK, "You can see your teammates using right click.")
 				ply:PrintMessage(HUD_PRINTTALK, "Check your score by typing !myscore or !teamscore.")
+
+				-- This makes sure that the life value capped to 0 when player lives goes to negative values
+				ply.lifes = 0
 			else
 				ply:PrintMessage(HUD_PRINTTALK, "You have "..ply.lifes.." lifes left.")
 				ply.canspawn = 1
